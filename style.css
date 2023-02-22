@@ -31,6 +31,10 @@
   background: #2E3244;
 }
 
+.txt-bleu {
+  color: #2E3244;
+}
+
 .bg-gris {
   background: #D0CECE;
 }
@@ -54,6 +58,10 @@
 
 .roboto {
   font-family: Roboto;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .qv {
@@ -94,14 +102,20 @@
   margin: auto;
 }
 .contenair .acceuil .section1 {
+  padding-top: 60px;
   height: 330px;
   width: 237px;
+  margin-top: 80px;
 }
 .contenair .acceuil .section1 .profil {
   border-radius: 100px;
   width: 121px;
   height: 124px;
   background-image: url("profil.jpg");
+}
+.contenair .acceuil .section1 .identites .dev {
+  margin-top: 30px;
+  font-style: normal;
 }
 .contenair .acceuil .section1 .identites .trait {
   height: 4px;
@@ -110,14 +124,11 @@
   top: 231px;
   border-radius: 5px;
 }
-.contenair .acceuil .section1 .section2 {
-  height: 349px;
-  width: 310px;
-  left: 40px;
+.contenair .acceuil .section2 .resume {
+  width: 285px;
+  margin-top: 20px;
 }
-.contenair .acceuil .section1 .section2 P {
-  font-size: 13px;
-  font-weight: 400;
+.contenair .acceuil .section2 .resume p {
   text-align: justify;
 }
 .contenair .realisation .projet .all-projet img {

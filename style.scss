@@ -4,11 +4,13 @@
 .flex-rowGap{display: flex;flex-direction: row; align-items: center; justify-content: space-between;}
 .bg-bleugris{background: linear-gradient(0deg,#ffffff 60%,  #2E3244 40%)}
 .bg-bleu{background: #2E3244}
+.txt-bleu{color: #2E3244}
 .bg-gris{background: #D0CECE}
 .bg-white{background: white;}
 .progressbar-wrapper{background: #D0CECE;color: white;border-radius: 10px ;width: 20vh;}
 .progressbar {text-align: right;font-size: 10.79px;border-radius: 10px 0px 0px 10px }
 .roboto{ font-family: Roboto;}
+.bold{font-weight: bold;}
 .qv{width: 80%;}
 .cq{width: 50%;}
 .spt{width: 70%;}
@@ -24,7 +26,7 @@
         top: 62px;
         margin: auto;
         .section1{
-            height: 330px;width: 237px;
+            padding-top: 60px;height: 330px;width: 237px;margin-top: 80px;
             .profil{
                 border-radius: 100px;
                 width: 121px;
@@ -32,26 +34,21 @@
                 background-image: url('profil.jpg');
             }
             .identites{
+                .dev{ margin-top: 30px;font-style: normal;}
                 .trait{height: 4px;width: 58px;left: 89px;top: 231px;border-radius: 5px;}
+        
+            }   
         }
         .section2{
-            height: 349px;
-            width: 310px;
-            left: 40px;
-            
-            
-            P{
-               
-                font-size: 13px;
-                font-weight: 400;
-                text-align: justify;
-                
-             
+           .resume{
+                width: 285px;margin-top: 20px;
+                p{text-align: justify;}
+            }
                 
 
-            }
         }
-    }    
+        
+     
     }
     .realisation{
         .competences{
