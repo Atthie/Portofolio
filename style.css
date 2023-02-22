@@ -16,8 +16,15 @@
   align-items: center;
 }
 
+.flex-rowGap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .bg-bleugris {
-  background: linear-gradient(0deg, #bd1d1d 60%, #2E3244 40%);
+  background: linear-gradient(0deg, #ffffff 60%, #2E3244 40%);
 }
 
 .bg-bleu {
@@ -30,6 +37,39 @@
 
 .bg-white {
   background: white;
+}
+
+.progressbar-wrapper {
+  background: #D0CECE;
+  color: white;
+  border-radius: 10px;
+  width: 20vh;
+}
+
+.progressbar {
+  text-align: right;
+  font-size: 10.79px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.roboto {
+  font-family: Roboto;
+}
+
+.qv {
+  width: 80%;
+}
+
+.cq {
+  width: 50%;
+}
+
+.spt {
+  width: 70%;
+}
+
+.st {
+  width: 70%;
 }
 
 .contenair {
@@ -76,10 +116,9 @@
   left: 40px;
 }
 .contenair .acceuil .section1 .section2 P {
-  font-family: Roboto;
   font-size: 13px;
   font-weight: 400;
-  text-align: justified;
+  text-align: justify;
 }
 .contenair .realisation .projet .all-projet img {
   height: 212px;
