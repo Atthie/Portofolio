@@ -1,0 +1,56 @@
+*{box-sizing: border-box;margin: 0%; padding: 0%;}
+.flex-col{display: flex;flex-direction: column; align-items: center;}
+.flex-row{display: flex;flex-direction: row; align-items: center;}
+.bg-bleugris{background: linear-gradient(0deg,#bd1d1d 60%,  #2E3244 40%)}
+.bg-bleu{background: #2E3244}
+.bg-gris{background: #D0CECE}
+.bg-white{background: white;}
+.contenair{
+    margin: auto;
+    .nav{
+        height: 62px;
+        .icone-id{font-family: Roboto;font-size: 12px;font-weight: 700;line-height: 14px;text-align: left;}
+        .icone-menu{height: 22.19993019104004px;width: 38px;}   
+    }
+    .acceuil{
+        top: 62px;
+        margin: auto;
+        .section1{
+            height: 330px;width: 237px;
+            .profil{
+                border-radius: 100px;
+                width: 121px;
+                height: 124px;
+                background-image: url('profil.jpg');
+            }
+            .identites{
+                .trait{height: 4px;width: 58px;left: 89px;top: 231px;border-radius: 5px;}
+        }
+        .section2{
+            height: 349px;
+            width: 310px;
+            left: 40px;
+            
+            
+            P{
+                font-family: Roboto;
+                font-size: 13px;
+                font-weight: 400;
+                
+             
+                text-align: justified;
+                
+
+            }
+        }
+    }    
+    }
+    .realisation{
+        .competences{
+
+        }
+        .projet{
+            .all-projet img{height: 212px;width: 281px;}
+        }
+    }
+}
