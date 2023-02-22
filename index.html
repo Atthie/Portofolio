@@ -5,73 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div>
-        <nav>
-            <div>
-                <p>Atthie MULONGO</p>
-                <p>Développeuse Web</p>
+<body class="flex-col">
+    <div class="contenair ">
+        <div class="nav flex-row">
+            <div class="icone-id">
+                <p>Atthie MULONGO <br>
+                Développeuse Web</p>
             </div>
-            <div>
+            <div class="icone-menu">
                 <img src="bar.png" alt="">
             </div>
-        </nav>
-        <div class="acceuil">
-            <div class="Apart1">
-                <section class="section1">
-                    <div><img src="" alt=""></div>
-                    <div>
-                        <p>Atthie</p>
-                        <p>MULONGO</p>
-                        <p></p>
-                        <p>DEVELOPPEUSE WEB</p>
-                    </div>
-                </section>
-            </div>
-            <div class="Apart2">
-                <section class="section2">
-                   <h1>Hello</h1>
-                   <p>Qui je suis ?/ Qu'est-ce que je fais ?</p>
-                   <p>Bienvenue sur mon portfolio en ligne ! Je suis une développeuse Full Stack passionnée, et je suis ravie de partager mon travail avec vous. Ce portfolio est l'occasion pour moi de vous présenter mes compétences en développement web et de vous montrer comment j'utilise mes connaissances en programmation pour créer des projets qui répondent aux besoins de mes clients. N'hésitez pas à explorer mon travail et à me contacter pour toute question ou projet futur.</p>
-                    <button>Telecharger CV</button>
-                </section>
-            </div>
+        </div>
+        <div class="acceuil flex-col bg-bleugris">
+            <section class="section1 bg-gris flex-col">
+                <div class="profil"></div>
+                <div class="identites flex-col">
+                    <p>Atthie</p>
+                    <p>MULONGO</p>
+                    <p class="trait bg-bleu"></p>
+                    <p>DEVELOPPEUSE WEB</p>
+                </div>
+            </section>
+            <section class="section2 bg-white flex-col">
+                <h1>Hello</h1>
+                <p>Qui je suis ?/ Qu'est-ce que je fais ?</p>
+                <p>Bienvenue sur mon portfolio en ligne ! Je suis <br>
+                    une développeuse Full Stack passionnée, et je <br>
+                    suis ravie de partager mon travail avec vous. Ce <br>
+                    portfolio est l'occasion pour moi de vous <br>
+                    présenter mes compétences en développement <br>
+                    web et de vous montrer comment j'utilise mes <br>
+                    connaissances en programmation pour créer <br>
+                    des projets qui répondent aux besoins de mes <br>
+                    clients. N'hésitez pas à explorer mon travail et à <br>
+                    me contacter pour toute question ou projet futur.</p>
+                <button>Telecharger CV</button>
+            </section>
         </div>
         <div class="realisation">
             <div class="competences">
                 <h3>COMPETENCES</h3>
-                <div class="html">
+                <div class="html flex-row">
                     <p>HTML</p>
                     <div class="progressbar-wrapper">
                         <div titre="downloaded" class="progressbar qv">80%</div>
                     </div>
                 </div>
-                <div class="sass">
+                <div class="sass flex-row">
                     <p>SASS</p>
                     <div class="progressbar-wrapper">
                         <div titre="downloaded" class="progressbar cq">50%</div>
                     </div>
                 </div>
-                <div class="js">
+                <div class="js flex-row">
                     <p>JAVASCRIPT</p>
                     <div class="progressbar-wrapper">
                         <div titre="downloaded" class="progressbar cq">50%</div>
                     </div>
                 </div>
-                <div class="sql">
+                <div class="sql flex-row">
                     <p>SQL</p>
                     <div class="progressbar-wrapper">
                         <div titre="downloaded" class="progressbar spt">70%</div>
                     </div>
                 </div>
-                <div class="ci">
+                <div class="ci flex-row">
                     <p>CODEIGNITER</p>
                     <div class="progressbar-wrapper">
                         <div titre="downloaded" class="progressbar qv">80%</div>
                     </div>
                 </div>
-                <div class="wp">
+                <div class="wp flex-row">
                     <p>WORDPRESS</p>
                     <div class="progressbar-wrapper">
                         <div titre="downloaded" class="progressbar st">60%</div>
@@ -80,10 +86,8 @@
             </div>
             <div class="projet">
                 <h3>Réalisations</h3>
-                <div>
-                    <p><img src="p1.jpg" alt=""></p>
-                    <p><img src="p2.png" alt=""></p>
-                    <p><img src="p3.png" alt=""></p>
+                <div class="all-projet">
+                    <img src="p1.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -110,7 +114,7 @@
                 <p><img src="tel.png" alt=""> +243 972389000</p>
                 <p><img src="enveloppe.png" alt="">atthie27@gmail.com </p>
                 <p>Suivez-moi sur:</p>
-                <div>
+                <div >
                     <a href="https://github.com/Atthie" target="_blank"><img src="github.png" alt=""></a>
                     <a href="https://linkedin.com/in/atthie-mulongo-80b9b9160" target="_blank"><img src="linkedin.png" alt=""></a>
                 </div>
