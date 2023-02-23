@@ -5,6 +5,7 @@
 .bg-bleugris{background: linear-gradient(0deg,#ffffff 60%,  #2E3244 40%)}
 .bg-bleu{background: #2E3244}
 .txt-bleu{color: #2E3244}
+.txt-white{color: white}
 .bg-gris{background: #D0CECE}
 .bg-white{background: white;}
 .progressbar-wrapper{background: #D0CECE;color: white;border-radius: 10px ;width: 20vh;}
@@ -16,44 +17,41 @@
 .spt{width: 70%;}
 .st{width: 70%;}
 .contenair{
-    margin: auto;
+  width: 100%;
     .nav{
-        height: 62px;
-        .icone-id{font-family: Roboto;font-size: 12px;font-weight: 700;line-height: 14px;text-align: left;}
-        .icone-menu{height: 22.19993019104004px;width: 38px;}   
+        height: 7.75vh; padding: 0vh 1.875vh 0vh  1.875vh;
+        .icone-id{font-family: Roboto;font-size: 1.5vh;}
+        .icone-menu{height: 2.75vh;width: 4.75vh;}   
     }
     .acceuil{
-        top: 62px;
-        margin: auto;
         .section1{
-            padding-top: 60px;height: 330px;width: 237px;margin-top: 80px;
+            padding-top: 7.5vh;height: 41.25vh;width: 29.625vh;margin-top: 10vh;
             .profil{
-                border-radius: 100px;
-                width: 121px;
-                height: 124px;
+                border-radius: 12.5vh;
+                width: 15.125vh;
+                height: 15.5vh;
                 background-image: url('profil.jpg');
+                background-size: cover;
+                background-position: center;
+                transform: matrix(0.93, -0.38, 0.4, 0.92, 0, 0);
             }
             .identites{
-                .dev{ margin-top: 30px;font-style: normal;}
-                .trait{height: 4px;width: 58px;left: 89px;top: 231px;border-radius: 5px;}
-        
+                .dev{ margin-top: 3.75vh;font-style: normal;}
+                .trait{height: 0.5vh;width: 7.25vh;border-radius: 0.625vh;}
             }   
         }
         .section2{
+            padding-top: 30px;
            .resume{
-                width: 285px;margin-top: 20px;
+                width: 35.625vh;margin-top: 2.5vh;
                 p{text-align: justify;}
             }
-                
-
-        }
-        
-     
+            .hello{font-family: Roboto;font-size: 4.5vh;color: #2E3244;}
+            button{margin-top:15px;height: 4vh;width: 14vh;border-radius: 0.625vh;background: #2E3244; margin-left: -21vh;} 
+        } 
     }
     .realisation{
-        .competences{
-
-        }
+    
         .projet{
             .all-projet img{height: 212px;width: 281px;}
         }
