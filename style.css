@@ -146,6 +146,12 @@
   background: #2E3244;
   margin-left: -21vh;
 }
+.contenair .realisation {
+  padding-top: 7.5vh;
+}
+.contenair .realisation .competences .connaissances {
+  margin-top: 6vh;
+}
 .contenair .realisation .projet .all-projet img {
   height: 212px;
   width: 281px;

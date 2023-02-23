@@ -51,7 +51,12 @@
         } 
     }
     .realisation{
-    
+        padding-top: 7.5vh;
+        .competences{
+            .connaissances{
+                margin-top: 6vh;
+            }
+        }
         .projet{
             .all-projet img{height: 212px;width: 281px;}
         }
