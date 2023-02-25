@@ -10,10 +10,34 @@
   align-items: center;
 }
 
+.flex-coleft {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.flex-colspace {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.flex-rowgap10 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.display-none {
+  display: none;
 }
 
 .flex-rowGap {
@@ -25,6 +49,10 @@
 
 .bg-bleugris {
   background: linear-gradient(0deg, #ffffff 60%, #2E3244 40%);
+}
+
+.bg-whitegris {
+  background: linear-gradient(0deg, #D0CECE 50%, #ffffff 50%);
 }
 
 .bg-bleu {
@@ -66,6 +94,18 @@
 
 .bold {
   font-weight: bold;
+}
+
+.p-top70 {
+  padding-top: 8.5vh;
+}
+
+.fleche {
+  margin-top: -220px;
+  background-color: rgb(255, 255, 255);
+  width: 5vh;
+  height: 5vh;
+  background-repeat: no-repeat;
 }
 
 .qv {
@@ -147,12 +187,50 @@
   margin-left: -21vh;
 }
 .contenair .realisation {
-  padding-top: 7.5vh;
+  height: 105.5vh;
 }
 .contenair .realisation .competences .connaissances {
-  margin-top: 6vh;
+  margin-top: 10vh;
 }
-.contenair .realisation .projet .all-projet img {
+.contenair .realisation .projet {
+  padding-top: 25vh;
+}
+.contenair .realisation .projet .all-projet .btnslide .fleche-gauche {
+  background-image: url("fg.png");
+  background-position: center;
+  box-shadow: -10px 5px 5px #2E3244;
+}
+.contenair .realisation .projet .all-projet .btnslide .fleche-droite {
+  background-image: url("fd.png");
+  background-position: center;
+  box-shadow: 10px 5px 5px #2E3244;
+}
+.contenair .realisation .projet .all-projet .image-projet img {
   height: 212px;
   width: 281px;
+  margin-top: 4vh;
+}
+.contenair .contact {
+  padding-top: 7.5vh;
+}
+.contenair .contact .Cpart1 {
+  height: 353px;
+  width: 317px;
+  margin-top: 4vh;
+  padding: 4vh;
+}
+.contenair .contact .Cpart1 h5 {
+  margin-bottom: 4vh;
+}
+.contenair .contact .Cpart2 {
+  height: 300px;
+  width: 317px;
+  padding: 4vh;
+}
+.contenair .contact .Cpart2 h5 {
+  margin-bottom: 4vh;
+}
+.contenair .footer {
+  height: 60px;
+  padding-top: 3vh;
 }/*# sourceMappingURL=style.css.map */

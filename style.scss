@@ -1,8 +1,13 @@
 *{box-sizing: border-box;margin: 0%; padding: 0%;}
 .flex-col{display: flex;flex-direction: column; align-items: center;}
+.flex-coleft{display: flex;flex-direction: column; align-items: left;}
+.flex-colspace{display: flex;flex-direction: column; align-items: center; gap: 10px;}
 .flex-row{display: flex;flex-direction: row; align-items: center;}
+.flex-rowgap10{display: flex;flex-direction: row; align-items: center; gap: 50px;}
+.display-none{display: none;}
 .flex-rowGap{display: flex;flex-direction: row; align-items: center; justify-content: space-between;}
 .bg-bleugris{background: linear-gradient(0deg,#ffffff 60%,  #2E3244 40%)}
+.bg-whitegris{background: linear-gradient(0deg,#D0CECE 50%,  #ffffff 50%)}
 .bg-bleu{background: #2E3244}
 .txt-bleu{color: #2E3244}
 .txt-white{color: white}
@@ -12,6 +17,8 @@
 .progressbar {text-align: right;font-size: 10.79px;border-radius: 10px 0px 0px 10px }
 .roboto{ font-family: Roboto;}
 .bold{font-weight: bold;}
+.p-top70{padding-top: 8.5vh;}
+.fleche{margin-top: -220px; background-color: rgb(255, 255, 255); width: 5vh; height: 5vh;background-repeat: no-repeat;}
 .qv{width: 80%;}
 .cq{width: 50%;}
 .spt{width: 70%;}
@@ -50,15 +57,35 @@
             button{margin-top:15px;height: 4vh;width: 14vh;border-radius: 0.625vh;background: #2E3244; margin-left: -21vh;} 
         } 
     }
-    .realisation{
-        padding-top: 7.5vh;
+    .realisation{height: 105.5vh;
         .competences{
             .connaissances{
-                margin-top: 6vh;
+                margin-top: 10vh;
             }
         }
         .projet{
-            .all-projet img{height: 212px;width: 281px;}
+            padding-top: 25vh;
+            .all-projet{
+                .btnslide{
+                    .fleche-gauche{background-image: url('fg.png'); background-position: center;box-shadow: -10px 5px 5px  #2E3244;}
+                    .fleche-droite{background-image: url('fd.png'); background-position: center;box-shadow: 10px 5px 5px #2E3244;}
+                }
+                .image-projet img{height: 212px;width: 281px; margin-top: 4vh;}
+            }
+            
         }
     }
+    .contact{
+        padding-top: 7.5vh;
+        .Cpart1{
+            height: 353px;width: 317px; margin-top: 4vh;padding: 4vh;
+            h5{ margin-bottom: 4vh;}
+        }
+        .Cpart2{
+            height: 300px;width: 317px;padding: 4vh;
+            h5{ margin-bottom: 4vh;}
+            
+        }
+    }
+    .footer{height: 60px;padding-top: 3vh;}
 }

@@ -42,9 +42,9 @@
                 <button class='txt-white'>Telecharger CV</button>
             </section>
         </div>
-        <div class="realisation flex-col">
-            <div class="competences flex-col">
-                <h3>COMPETENCES</h3>
+        <div class="realisation flex-col bg-whitegris">
+            <div class="competences flex-col p-top70">
+                <h3 class="roboto">COMPETENCES</h3>
                 <div class="connaissances">
                     <div class="html flex-rowGap">
                         <p>HTML</p>
@@ -85,35 +85,56 @@
                 </div>
                 
             </div>
-            <div class="projet">
-                <h3>REALISATION</h3>
+            <div class="projet flex-col  ">
+                <h3 class="roboto">REALISATION</h3>
                 <div class="all-projet">
-                    <img src="p1.jpg" alt="">
+                    <div class="image-projet flex-rowgap10">
+                        <img src="p1.jpg" alt="">
+                        <img class="display-none" src="p2.png" alt="" >
+                        <img class="display-none" src="p3.png" alt="" >
+                    </div>
+                   
+                   
+                    <div class="btnslide flex-rowGap">
+                        <div class="fleche-droite fleche"></div>
+                        <div class="fleche-gauche fleche"></div>
+                    </div>
+
                 </div>
             </div>
         </div>
-        <div class="contact">
-            <h3>CONTACT</h3>
-            <div class="Cpart1">
-                <h5>ENVOYER UN MESSAGE</h5>
+        <div class="contact flex-col">
+            <h3 class="roboto">CONTACT</h3>
+            <div class="Cpart1 flex-coleft bg-bleu">
+                <h5 class="txt-white">ENVOYER UN MESSAGE</h5>
                 <div class="form">
-                    <div>
+                    <div class='flex-coleft txt-white'>
                         <label for="nom">Nom</label>
                         <input type="text" id="nom" name="nom">
                     </div>
-                    <div>
+                    <div class='flex-coleft txt-white'>
                         <label for="email">Adresse mail</label>
                         <input type="text" id="email" name="email">
                     </div>
-                    <div>
+                    <div class='flex-coleft txt-white'>
                         <label for="message">Message</label>
                         <textarea name="message" id="" cols="30" rows="10"></textarea>
                     </div>
                 </div>
             </div>
-            <div class="Cpart2">
-                <p><img src="tel.png" alt=""> +243 972389000</p>
-                <p><img src="enveloppe.png" alt="">atthie27@gmail.com </p>
+            <div class="Cpart2 flex-colspace bg-gris">
+                <h5 class="txt-bleu">COORDONNEES DE CONTACT</h5>
+                <div class="img-p flex-col">
+                    <div class="flex-row">
+                        <img src="tel.png" alt="telephone"> 
+                        <p>+243 972389000</p>
+                    </div>
+                    <div class="flex-rowGap">
+                        <img src="enveloppe.png" alt="mail">
+                        <p>atthie27@gmail.com</p> 
+                    </div>
+                    
+                </div>
                 <p>Suivez-moi sur:</p>
                 <div >
                     <a href="https://github.com/Atthie" target="_blank"><img src="github.png" alt=""></a>
@@ -121,7 +142,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer">
+        <div class="footer flex-col">
             <p>COPYRIGHT ©2023 </p>
         </div>
     </div>
