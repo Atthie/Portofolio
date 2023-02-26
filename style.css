@@ -89,7 +89,7 @@
 }
 
 .roboto {
-  font-family: Roboto;
+  font-family: Poppins;
 }
 
 .bold {
@@ -138,6 +138,20 @@
 .contenair .nav .icone-menu {
   height: 2.75vh;
   width: 4.75vh;
+}
+.contenair .nav .icone-menu .lien {
+  background-color: #ffffff;
+  margin-left: -100px;
+  box-shadow: -10px 5px 5px gray;
+  display: flex;
+  flex-direction: column;
+  width: 20vh;
+  height: 15vh;
+  padding: 0px;
+}
+.contenair .nav .icone-menu .lien a {
+  text-decoration: none;
+  font-family: Poppins;
 }
 .contenair .acceuil .section1 {
   padding-top: 7.5vh;
