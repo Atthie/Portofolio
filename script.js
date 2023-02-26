@@ -6,6 +6,6 @@ menu.addEventListener('click',() =>{
         lien.style.visibility='visible';
     }else{
         lien.style.visibility='hidden';
-        
+
     }
 })
