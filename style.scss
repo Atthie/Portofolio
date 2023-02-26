@@ -31,8 +31,8 @@
         .icone-menu{
             height: 2.75vh;width: 4.75vh;
             .lien {
-                background-color: #ffffff; margin-left: -100px;box-shadow: -10px 5px 5px gray; display: flex;flex-direction: column; width: 20vh; height: 15vh; padding: 0px ;
-                a{text-decoration: none; font-family: Poppins; }
+                margin-left: -100px; margin-top: -20px;
+                a{text-decoration: none; font-family: Poppins; box-shadow: -10px 5px 5px gray; width: 20vh; height: 15vh;border-radius: 4px;}
             }
         }   
     }

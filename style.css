@@ -140,18 +140,16 @@
   width: 4.75vh;
 }
 .contenair .nav .icone-menu .lien {
-  background-color: #ffffff;
   margin-left: -100px;
-  box-shadow: -10px 5px 5px gray;
-  display: flex;
-  flex-direction: column;
-  width: 20vh;
-  height: 15vh;
-  padding: 0px;
+  margin-top: -20px;
 }
 .contenair .nav .icone-menu .lien a {
   text-decoration: none;
   font-family: Poppins;
+  box-shadow: -10px 5px 5px gray;
+  width: 20vh;
+  height: 15vh;
+  border-radius: 4px;
 }
 .contenair .acceuil .section1 {
   padding-top: 7.5vh;
