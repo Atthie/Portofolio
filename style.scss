@@ -84,8 +84,11 @@
     .contact{
         padding-top: 7.5vh;
         .Cpart1{
-            height: 353px;width: 317px; margin-top: 4vh;padding: 4vh;
+           width: 317px; margin-top: 4vh;padding: 4vh;
             h5{ margin-bottom: 4vh;}
+            .form{
+                button{margin-top:15px;height: 4vh;width: 14vh;border-radius: 0.625vh;background: #D0CECE; } 
+            }
         }
         .Cpart2{
             height: 300px;width: 317px;padding: 4vh;

@@ -1,8 +1,11 @@
+
 const menu = document.querySelector('.menu-icone');
 const gauche =document.querySelector('.fleche-gauche');
 const droite =document.querySelector('.fleche-droite');
+const envoyer =document.querySelector('.envoyer');
 const slide = ["p1.jpg", "p2.png", "p3.png"];
 let numero = 0;
+///////////////// Script du menu en mode telephone //////////////////////////////////////////////////////////////////////
 menu.addEventListener('click',() =>{
     const lien =document.querySelector('.lien');
     const visibility =lien.getAttribute('style');
@@ -12,13 +15,19 @@ menu.addEventListener('click',() =>{
         lien.style.visibility='hidden';
     }
 })
-
-function ChangeSlide(sens) {
-    numero = numero + sens;
+//////////////////////////////// function ChangeSlide //////////////////////////////////////////////////////////////////
+function ChangeSlide(direction) {
+    numero = numero + direction;
     if (numero < 0)
         numero = slide.length - 1;
     if (numero > slide.length - 1)
         numero = 0;
     document.querySelector(".slide").src = slide[numero];
-    console.log(numero);
 }
+
+////////////////////////// Script d'envoi du mail //////////////////////////////////////////////////////////////////////
+envoyer.addEventListener('click',()=>{
+    console.log('bonjour');
+       
+
+})

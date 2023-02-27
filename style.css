@@ -226,13 +226,19 @@
   padding-top: 7.5vh;
 }
 .contenair .contact .Cpart1 {
-  height: 353px;
   width: 317px;
   margin-top: 4vh;
   padding: 4vh;
 }
 .contenair .contact .Cpart1 h5 {
   margin-bottom: 4vh;
+}
+.contenair .contact .Cpart1 .form button {
+  margin-top: 15px;
+  height: 4vh;
+  width: 14vh;
+  border-radius: 0.625vh;
+  background: #D0CECE;
 }
 .contenair .contact .Cpart2 {
   height: 300px;

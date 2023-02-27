@@ -119,6 +119,9 @@
                         <label for="message">Message</label>
                         <textarea name="message" id="" cols="30" rows="10"></textarea>
                     </div>
+                    <button class='envoyer bg-gris roboto'>Envoyer</button>
+                    <div class="addthis_inline_share_toolbox" data-services="gmail,whatsapp"></div>
+
                 </div>
             </div>
             <div class="Cpart2 flex-colspace bg-gris">
@@ -146,6 +149,12 @@
         </div>
     </div>
 </body>
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script src="script.js"></script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("YOUR_PUBLIC_KEY");
+   })();
+</script><script src="script.js"></script>
 </html>
