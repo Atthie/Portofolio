@@ -85,15 +85,21 @@ $col :column ;$row :row; $space-b: space-between;
     .contact{
         padding-top: 7.5vh;
         .Cpart1{
-           width: 317px; margin-top: 4vh;padding: 4vh;
+           width: 39.625vh; margin-top: 4vh;padding: 4vh;
             h5{ margin-bottom: 4vh;}
             .form{
+                div{
+                    input ,textarea{border:0; border-radius:10px; font-family:inherit;font-size: inherit;padding:10px;}
+                }
                 button{margin-top:15px;height: 4vh;width: 14vh;border-radius: 0.625vh;background: #D0CECE; } 
             }
         }
         .Cpart2{
-            height: 300px;width: 317px;padding: 4vh;
+            height: 300px;width: 39.625vh;padding: 4vh;
             h5{ margin-bottom: 4vh;}
+            .img-p{margin-top: 50px; display: flex;flex-direction: column; gap: 30px;}
+            .rs{margin-top: 70px;}
+            .reseaux-sociaux{margin-top: 20px;}
         }
     }
     .footer{height: 60px;padding-top: 3vh;}
@@ -161,6 +167,27 @@ $col :column ;$row :row; $space-b: space-between;
                             }
                         }
                 }
+            }
+           
+        }
+        .contact{
+            height: 90vh; display: flex; flex-direction: column; align-content: center;
+            .section-principale{
+                height: 100%; display: flex; flex-direction: row; width: 50%; align-items: center;
+                .Cpart1{
+                    width: 50.25vh;height: 60vh; margin-top: 0px;
+                     h5{ margin-bottom: 4vh;}
+                     .form{
+                        div{
+                            input ,textarea{border:0; border-radius:10px; font-family:inherit;font-size: inherit;padding:10px;}
+                        }
+                         button{margin-top:15px;height: 4vh;width: 14vh;border-radius: 0.625vh;background: #D0CECE; } 
+                     }
+                 }
+                 .Cpart2{
+                    width: 50.25vh;height: 60vh;
+                     h5{ margin-bottom: 4vh;}
+                 }
             }
            
         }

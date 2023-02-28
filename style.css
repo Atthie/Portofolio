@@ -231,12 +231,19 @@
   padding-top: 7.5vh;
 }
 .contenair .contact .Cpart1 {
-  width: 317px;
+  width: 39.625vh;
   margin-top: 4vh;
   padding: 4vh;
 }
 .contenair .contact .Cpart1 h5 {
   margin-bottom: 4vh;
+}
+.contenair .contact .Cpart1 .form div input, .contenair .contact .Cpart1 .form div textarea {
+  border: 0;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 10px;
 }
 .contenair .contact .Cpart1 .form button {
   margin-top: 15px;
@@ -247,11 +254,23 @@
 }
 .contenair .contact .Cpart2 {
   height: 300px;
-  width: 317px;
+  width: 39.625vh;
   padding: 4vh;
 }
 .contenair .contact .Cpart2 h5 {
   margin-bottom: 4vh;
+}
+.contenair .contact .Cpart2 .img-p {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.contenair .contact .Cpart2 .rs {
+  margin-top: 70px;
+}
+.contenair .contact .Cpart2 .reseaux-sociaux {
+  margin-top: 20px;
 }
 .contenair .footer {
   height: 60px;
@@ -392,5 +411,47 @@
     height: 40vh;
     width: 60vh;
     margin-top: 4vh;
+  }
+  .contenair .contact {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .contenair .contact .section-principale {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+  }
+  .contenair .contact .section-principale .Cpart1 {
+    width: 50.25vh;
+    height: 60vh;
+    margin-top: 0px;
+  }
+  .contenair .contact .section-principale .Cpart1 h5 {
+    margin-bottom: 4vh;
+  }
+  .contenair .contact .section-principale .Cpart1 .form div input, .contenair .contact .section-principale .Cpart1 .form div textarea {
+    border: 0;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 10px;
+  }
+  .contenair .contact .section-principale .Cpart1 .form button {
+    margin-top: 15px;
+    height: 4vh;
+    width: 14vh;
+    border-radius: 0.625vh;
+    background: #D0CECE;
+  }
+  .contenair .contact .section-principale .Cpart2 {
+    width: 50.25vh;
+    height: 60vh;
+  }
+  .contenair .contact .section-principale .Cpart2 h5 {
+    margin-bottom: 4vh;
   }
 }/*# sourceMappingURL=style.css.map */
