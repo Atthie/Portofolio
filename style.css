@@ -145,14 +145,15 @@
 .contenair .nav .icone-menu .lien {
   margin-left: -100px;
   margin-top: -20px;
+  border-radius: 4px;
+  width: 20vh;
+  height: 15vh;
+  padding: 20px;
 }
 .contenair .nav .icone-menu .lien a {
   text-decoration: none;
   font-family: Poppins;
-  box-shadow: -10px 5px 5px gray;
-  width: 20vh;
-  height: 15vh;
-  border-radius: 4px;
+  box-shadow: -10px 5px 5px #2E3244;
 }
 .contenair .acceuil .section1 {
   padding-top: 7.5vh;
