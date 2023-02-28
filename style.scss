@@ -61,7 +61,7 @@ $col :column ;$row :row; $space-b: space-between;
                 p{text-align: justify;}
             }
             .hello{font-family: Roboto;font-size: 4.5vh;color: #2E3244;}
-            button{margin-top:15px;height: 4vh;width: 16vh;border-radius: 0.625vh;background: #2E3244; margin-left: -21vh;} 
+            button{margin-top:15px;height: 4vh;width: 16vh;border-radius: 0.625vh;background: #2E3244; margin-left: -17vh;} 
         } 
     }
     .realisation{
@@ -95,11 +95,9 @@ $col :column ;$row :row; $space-b: space-between;
             }
         }
         .Cpart2{
-            height: 300px;width: 39.625vh;padding: 4vh;
+            height: 37.5vh;width: 39.625vh;padding: 4vh;
             h5{ margin-bottom: 4vh;}
-            .img-p{margin-top: 50px; display: flex;flex-direction: column; gap: 30px;}
-            .rs{margin-top: 70px;}
-            .reseaux-sociaux{margin-top: 20px;}
+            
         }
     }
     .footer{height: 60px;padding-top: 3vh;}
@@ -109,7 +107,7 @@ $col :column ;$row :row; $space-b: space-between;
     visibility: hidden;
     div{width: 350px;height: auto;margin: 100px auto;background-color: #f2f2f2;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;padding: 15px;text-align: center;font-weight: bold;font-size: 15px;border: 3px solid #D0CECE;position: absolute;top: 1950px;transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);-webkit-transform: translate(-50%, -50%);}    
 }
-@media only screen and (min-width: 900px) {
+@media only screen and  (min-width: 900px) {
    
     .contenair{
       .nav{
@@ -187,6 +185,9 @@ $col :column ;$row :row; $space-b: space-between;
                  .Cpart2{
                     width: 50.25vh;height: 60vh;
                      h5{ margin-bottom: 4vh;}
+                     .img-p{margin-top: 50px; display: flex;flex-direction: column; gap: 30px;}
+                    .rs{margin-top: 70px;}
+                    .reseaux-sociaux{margin-top: 20px;}
                  }
             }
            
@@ -194,3 +195,5 @@ $col :column ;$row :row; $space-b: space-between;
 
     }
   }
+
+ 
