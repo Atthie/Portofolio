@@ -354,4 +354,43 @@
     width: 35.625vh;
     margin-top: 5.5vh;
   }
+  .contenair .realisation {
+    background: linear-gradient(-90deg, #D0CECE 60%, #ffffff 40%);
+    height: 70.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenair .realisation .section-principale {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .contenair .realisation .section-principale .competences .connaissances {
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: column;
+    gap: 6.25vh;
+    margin-left: -6.25vh;
+  }
+  .contenair .realisation .section-principale .competences .connaissances div .progressbar-wrapper {
+    width: 40vh;
+  }
+  .contenair .realisation .section-principale .projet {
+    margin-top: -160px;
+  }
+  .contenair .realisation .section-principale .projet .all-projet .btnslide {
+    margin-top: -90px;
+  }
+  .contenair .realisation .section-principale .projet .all-projet .image-projet {
+    height: auto;
+    width: auto;
+  }
+  .contenair .realisation .section-principale .projet .all-projet .image-projet img {
+    height: 40vh;
+    width: 60vh;
+    margin-top: 4vh;
+  }
 }/*# sourceMappingURL=style.css.map */
