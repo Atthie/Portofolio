@@ -26,7 +26,7 @@
 .contenair{
   width: 100%;
     .nav{
-        height: 7.75vh; padding: 0vh 1.875vh 0vh  1.875vh; 
+        height: 7.75vh; width: 100%; padding: 0vh 1.875vh 0vh  1.875vh; position: fixed;top:0px;
         .icone-id{font-family: Roboto;font-size: 1.5vh;}
         .icone-menu{
             height: 2.75vh;width: 4.75vh;
@@ -39,7 +39,7 @@
     }
     .acceuil{
         .section1{
-            padding-top: 7.5vh;height: 41.25vh;width: 29.625vh;margin-top: 10vh;
+            padding-top: 7.5vh;height: 47.25vh;width: 35vh;margin-top: 10vh;
             .profil{
                 border-radius: 12.5vh;
                 width: 15.125vh;
@@ -61,10 +61,11 @@
                 p{text-align: justify;}
             }
             .hello{font-family: Roboto;font-size: 4.5vh;color: #2E3244;}
-            button{margin-top:15px;height: 4vh;width: 14vh;border-radius: 0.625vh;background: #2E3244; margin-left: -21vh;} 
+            button{margin-top:15px;height: 4vh;width: 16vh;border-radius: 0.625vh;background: #2E3244; margin-left: -21vh;} 
         } 
     }
-    .realisation{height: 105.5vh;
+    .realisation{
+        height: 105.5vh;
         .competences{
             .connaissances{
                 margin-top: 10vh;

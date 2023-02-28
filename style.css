@@ -129,7 +129,10 @@
 }
 .contenair .nav {
   height: 7.75vh;
+  width: 100%;
   padding: 0vh 1.875vh 0vh 1.875vh;
+  position: fixed;
+  top: 0px;
 }
 .contenair .nav .icone-id {
   font-family: Roboto;
@@ -153,8 +156,8 @@
 }
 .contenair .acceuil .section1 {
   padding-top: 7.5vh;
-  height: 41.25vh;
-  width: 29.625vh;
+  height: 47.25vh;
+  width: 35vh;
   margin-top: 10vh;
 }
 .contenair .acceuil .section1 .profil {
@@ -193,7 +196,7 @@
 .contenair .acceuil .section2 button {
   margin-top: 15px;
   height: 4vh;
-  width: 14vh;
+  width: 16vh;
   border-radius: 0.625vh;
   background: #2E3244;
   margin-left: -21vh;
